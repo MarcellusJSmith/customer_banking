@@ -10,7 +10,7 @@ def main():
     """
     # Prompt the user to set the savings balance, interest rate, and months for the savings account.
     # ADD YOUR CODE HERE
-    savings_balance = float(input("Set the balance for your savings account: "))
+    savings_balance = float(input("Set the savings balance for your savings account: $"))
     savings_interest = float(input("Set the interest rate for your savings account: "))
     savings_maturity = int(input("Set the amount of months your savings account has earned interest: "))
     # Call the create_savings_account function and pass the variables from the user.
@@ -18,10 +18,10 @@ def main():
 
     # Print out the interest earned and updated savings account balance with interest earned for the given months.
     # ADD YOUR CODE HERE
-    print(f'This account earned {interest_earned:,.2f} in interest.\nYour new account balance is {updated_savings_balance:,.2f}')
+    print(f'This account earned ${interest_earned:,.2f} in interest.\nYour new account balance is ${updated_savings_balance:,.2f}')
     # Prompt the user to set the CD balance, interest rate, and months for the CD account.
     # ADD YOUR CODE HERE
-    cd_balance = float(input("Set the balance for your CD account: "))
+    cd_balance = float(input("Set the savings balance for your CD account: $"))
     cd_interest = float(input("Set the interest rate for your CD account: "))
     cd_maturity = int(input("Set the amount of months your CD account has earned interest: "))
     # Call the create_cd_account function and pass the variables from the user.
@@ -29,7 +29,7 @@ def main():
 
     # Print out the interest earned and updated CD account balance with interest earned for the given months.
     # ADD YOUR CODE HERE
-    print(f'This account earned {interest_earned:,.2f} in interest.\nYour new account balance is {updated_cd_balance:,.2f}')
+    print(f'This account earned ${interest_earned:,.2f} in interest.\nYour new account balance is ${updated_cd_balance:,.2f}')
 if __name__ == "__main__":
     # Call the main function.
     main()
